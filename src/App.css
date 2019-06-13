@@ -3,7 +3,9 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  stroke-width: 0;
+  animation:fade 1s linear;
+  -webkit-animation:fade 1s linear;
   height: 40vmin;
   pointer-events: none;
 }
@@ -23,11 +25,9 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@keyframes fade {
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
 }
