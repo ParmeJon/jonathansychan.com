@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import temp from './JonSY2.jpg';
 import './App.css';
 
@@ -11,14 +10,26 @@ function App() {
         <p>
           <i>jonathansychan.com</i> is currently under construction.
         </p>
-        <a
-          className="App-link"
-          href="https://www.linkedin.com/in/jonathansychan/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i class="fab fa-linkedin"></i>
-        </a>
+        <div className="external-links">
+          <a
+            className="App-link"
+            href="https://www.linkedin.com/in/jonathansychan/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+
+          <a
+            className="App-link"
+            href="https://www.youtube.com/jonsyvids"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+
       </header>
     </div>
   );

@@ -23,6 +23,13 @@
 
 .App-link {
   color: #61dafb;
+  font-size: 2em;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.external-links {
+  display: flex;
 }
 
 @keyframes fade {
