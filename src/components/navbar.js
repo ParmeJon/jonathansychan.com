@@ -13,7 +13,7 @@ class MyNavbar extends Component {
       height="60"
       className="navbar-icon"
       />
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="">
           {'JSYC'}
         </Navbar.Brand>
       </Navbar>
