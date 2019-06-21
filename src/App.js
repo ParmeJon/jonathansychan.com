@@ -1,10 +1,12 @@
 import React from 'react';
-import temp from './JonSY2.jpg';
+import temp from './images/JonSY2.jpg';
+import MyNavbar from './components/navbar'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <MyNavbar/>
       <header className="App-header">
         <img src={temp} className="App-logo" alt="logo" />
         <p>
