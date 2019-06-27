@@ -4,40 +4,43 @@
   min-height: 100vh;
 }
 
+/* main */
 .main {
-  padding-top: 20vh;
+  padding-top: 25vh;
   padding-left: 5vw;
   min-height: 40vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
 
+.image-container {
+  margin: 0 auto;
+}
+
 .main-content {
-  /* min-width: 1000px; */
   margin-left: 100px;
   margin-right: 100px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap-reverse;
   align-items: center;
-  padding: 5px;
 }
 
 /* icons styling */
 
 .linkedin-icon {
   color: #487eb0;
-  font-size: 3em;
+  font-size: 3.5em;
   margin-left: 10px;
   margin-right: 10px;
 }
 
 .youtube-icon {
   color: #e74c3c;
-  font-size: 3em;
+  font-size: 3.5em;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -48,7 +51,7 @@
 
 .github-icon {
   color: #718093;
-  font-size: 3em;
+  font-size: 3.5em;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -90,19 +93,12 @@
 .main-title {
   display: flex;
   flex-wrap: wrap;
-  font-size: 3.5em;
+  font-size: 3em;
 
   /* color: #2f3640; */
 }
 
-.main-words {
-  flex-grow: 2;
-}
 
-.image-container {
-  flex-grow: 1;
-  margin: 5px
-}
 
 .main-description {
   display: flex;
@@ -111,7 +107,6 @@
 /* Me Icon */
 
 .me-icon {
-  min-width: 700px;
+  min-width: 325px;
   max-height: 50vh;
-  flex-grow: 2;
 }

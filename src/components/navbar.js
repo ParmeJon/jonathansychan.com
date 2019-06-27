@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Navbar from 'react-bootstrap/Navbar'
-import image from '../images/sized_image.svg'
 
 class MyNavbar extends Component {
   render() {
