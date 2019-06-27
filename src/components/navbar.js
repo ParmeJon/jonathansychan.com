@@ -6,13 +6,13 @@ class MyNavbar extends Component {
   render() {
     return (
       <Navbar fixed="top" bg="transparent" expand="lg">
-      <img
-      alt=""
-      src={image}
-      width="60"
-      height="60"
-      className="navbar-icon"
-      />
+      {/*  <img
+        alt=""
+        src={image}
+        width="60"
+        height="60"
+        className="navbar-icon"
+        /> */ }
         <Navbar.Brand href="">
           {'JSYC'}
         </Navbar.Brand>

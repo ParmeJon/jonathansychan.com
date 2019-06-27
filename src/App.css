@@ -1,17 +1,13 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  stroke-width: 0;
-  animation:fade 1s linear;
-  -webkit-animation:fade 1s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
+  background-color: #fffafa;
   min-height: 100vh;
+}
+
+.main {
+  padding-top: 20vh;
+  padding-left: 5vw;
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,15 +15,52 @@
   font-size: calc(10px + 2vmin);
 }
 
-.App-link {
-  color: #61dafb;
-  font-size: 2em;
+.main-content {
+  /* min-width: 1000px; */
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  padding: 5px;
+}
+
+/* icons styling */
+
+.linkedin-icon {
+  color: #487eb0;
+  font-size: 3em;
   margin-left: 10px;
   margin-right: 10px;
 }
 
+.youtube-icon {
+  color: #e74c3c;
+  font-size: 3em;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.youtube-icon:hover {
+  color: #d63031;
+}
+
+.github-icon {
+  color: #718093;
+  font-size: 3em;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.github-icon:hover {
+  color: #353b48;
+}
+
 .external-links {
   display: flex;
+  justify-content: center;
+  margin: 10px auto;
 }
 
 @keyframes fade {
@@ -51,4 +84,34 @@
   height: 80px;
   line-height: 80px;
   font-size: 2.5em;
+  /* color: #2f3640; */
+}
+
+.main-title {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 3.5em;
+
+  /* color: #2f3640; */
+}
+
+.main-words {
+  flex-grow: 2;
+}
+
+.image-container {
+  flex-grow: 1;
+  margin: 5px
+}
+
+.main-description {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Me Icon */
+
+.me-icon {
+  min-width: 700px;
+  max-height: 50vh;
+  flex-grow: 2;
 }
