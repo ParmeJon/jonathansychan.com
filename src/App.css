@@ -60,6 +60,29 @@
   color: #353b48;
 }
 
+.ig-icon {
+  color: #fab1a0;
+  font-size: 3.5em;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.ig-icon:hover {
+  color: #e17055;
+}
+
+.iot-icon {
+  color: #ffeaa7;
+  font-size: 3.5em;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.iot-icon:hover {
+  color: #fdcb6e;
+}
+
+
 .external-links {
   display: flex;
   justify-content: center;
