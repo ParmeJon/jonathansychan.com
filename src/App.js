@@ -15,7 +15,7 @@ function App() {
             <h1 className="main-title">Jonathan</h1>
             <h1 className="main-title"> SY </h1>
             <h1 className="main-title">Chan</h1>
-            <i className="main-description">an always learning software engineer and digital artist </i>
+            <i className="main-description">a tenacious software engineer and digital artist </i>
           </div>
 
           <div className="image-container">
